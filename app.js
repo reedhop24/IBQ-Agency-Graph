@@ -82,15 +82,13 @@ app.post('/upload', async (req, res) => {
                 barArray.push(bar);
             });
 
-            async function asyncCall() {
+            (async function asyncCall() {
                 var result = await x;
                 if(result === undefined && count === company.length-1){
                     res.send(barArray.join(''));
                 }
                 count++;
-            }
-
-            asyncCall();
+            })();
 
         }
 
