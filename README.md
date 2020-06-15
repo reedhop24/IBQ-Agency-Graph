@@ -2,7 +2,7 @@
 
 #### This project was built using Node.Js, Express, Chartist, XLSX, and the Node File System module. 
 
-#### The agency graph is an endpoint I built for IBQ, the need for this came about due to they way we were sending User Statistics to our agents. If an agent wanted access their agencies report (i.e. quotes, bind, and pay done broken down by Agent) we were just emailing them a PDF with all of that information scattered about. Since our Desktop UI can run HTML, an endpoint that consumes an Excel spreadsheet and returns HTML seemed like a good choice. 
+#### The agency graph is an endpoint I built for IBQ, the need for this came about due to they way we were sending User Statistics to our agents. If an agent wanted access their agencies report (i.e. quotes, bind, and pay done broken down by Agent) we were just emailing them a spreadsheet with all of that information scattered about. Since our Desktop UI can run HTML, an endpoint that consumes an Excel spreadsheet and returns HTML seemed like a good choice. 
 
 #### We did not have to alter the code that generates and sends the Excel spreadsheet other than changing the endpoint. To generate the charts that represents the spreadsheet I am using Chartist. Chartist takes data for the X Y axis along with the actual user data and generates HTML which forms the graph. So my code takes in the spreadsheet, converts it to JSON, loops through the JSON and fills in the chart with the data it collected. 
 
