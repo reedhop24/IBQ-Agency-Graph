@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.1.6-alpha.6",
     "html": "^1.0.0",
-    "jsdom": "^15.2.0",
+    "jsdom": "^16.5.0",
     "merge-files": "^0.1.2",
     "node-chartist": "^1.0.5",
     "nodemon": "^1.19.4",
