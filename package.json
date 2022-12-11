@@ -8,7 +8,7 @@
     "canvas": "^2.6.0",
     "chartjs": "^0.3.24",
     "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-fileupload": "^1.1.6-alpha.6",
     "html": "^1.0.0",
     "jsdom": "^15.2.0",
